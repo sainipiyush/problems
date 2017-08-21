@@ -1,0 +1,17 @@
+#!/bin/bash
+
+DIST_NAME=exercise-dist-regex.zip
+PROJECT_DIR=$PWD
+if [ ! -e "${PROJECT_DIR}/src/main/java" ]; then
+  PROJECT_DIR=`dirname $0`
+fi
+
+echo PROJECT_DIR=${PROJECT_DIR}
+
+if [ -e "${PROJECT_DIR}/src/main/java" ]; then
+  cd ${PROJECT_DIR}
+  find sample_dir -type f | grep  '.processed$' | xargs rm
+  zip -r ${DIST_NAME} *.pdf pom.xml src sample_dir scripts
+else
+  echo Cannot find the source directory, please execute this script in the project dir
+fi
