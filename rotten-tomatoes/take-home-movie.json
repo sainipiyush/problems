@@ -1,0 +1,96 @@
+{
+    "data": {
+        "type": "movie",
+        "id": "771373077",
+        "attributes": {
+            "advisory": "for sequences of sci-fi violence and action, thematic elements, and some disturbing images",
+            "tomatometer": {
+                "state": "certified_fresh",
+                "value": 93,
+                "averageRating": "8.6",
+                "freshCount": "234",
+                "rottenCount": "19"
+            },
+            "audience": {
+                "state": "upright",
+                "value": 83,
+                "averageRating": "4.1",
+                "ratingsCount": "34520"
+            },
+            "year": 2017,
+            "lastModifiedDate": "2017-07-31T13:19:35-07:00",
+            "creationDate": "2014-01-16T21:42:18-08:00",
+            "title": "War for the Planet of the Apes",
+            "vanity": "war_for_the_planet_of_the_apes",
+            "movieBoxOfficeInfo": null,
+            "mpaaRating": "PG13",
+            "consensus": "War for the Planet of the Apes combines breathtaking special effects and a powerful, poignant narrative to conclude this rebooted trilogy on a powerful -- and truly blockbuster -- note."
+        },
+        "relationships": {
+            "franchise": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/franchise"
+                }
+            },
+            "audienceReviews": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/audienceReviews"
+                }
+            },
+            "movieSupplementaryInfo": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/movieSupplementaryInfo"
+                }
+            },
+            "quotes": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/quotes"
+                }
+            },
+            "genres": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/genres"
+                }
+            },
+            "affiliates": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/affiliates"
+                }
+            },
+            "videoClips": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/videoClips"
+                }
+            },
+            "reviews": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/reviews"
+                }
+            },
+            "moviePersonnel": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/moviePersonnel"
+                }
+            },
+            "audienceSummary": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/audienceSummary"
+                }
+            },
+            "criticSummary": {
+                "links": {
+                    "related": "http://localhost:8080/movie/771373077/criticSummary"
+                }
+            },
+            "images": {
+                "links": {
+                    "related": "https://resizing.flixster.com/2UmR2Oly25tyYghNuAHD1tl7XBA=/206x305/v1.bTsxMjQxNTA3MztqOzE3NDIzOzEyMDA7Mjk2NDs0Mzkx"
+                }
+            }
+        },
+        "links": {
+            "self": "http://localhost:8080/movie/771373077"
+        }
+    },
+    "included": []
+}

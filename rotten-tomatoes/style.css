@@ -1,0 +1,126 @@
+#logo {
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin: 2px;
+	background-color: green;
+}
+
+#topBar {
+	margin-top: 160px;
+	height: 40px;
+	background-color: black;
+}
+
+#poster {
+    width: 25%;
+    height: 300px;
+    border: 1px solid red;
+    margin: 5px;
+    float: left;
+}
+#info {
+    width: 73%;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 5px;
+	float: left;
+}
+
+#articles {
+    width: 73%;
+    height: 600px;
+    border: 1px solid blue;
+    margin: 5px;
+	float: left;
+	
+}
+
+.tomatocorner	{
+		position:absolute;
+		top: 10px;
+		left: 10px;
+		z-index: 1;
+}
+
+.rtlogo {
+	position:absolute;
+	top: 25px;
+	left: 25px;
+	z-index: 2;
+}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+.related {
+  width: 10%;
+  height: auto;
+  padding: 2px;
+}
+
+h2 {
+  text-align:center;
+	padding-bottom: 1em;
+}
+
+.slick-dots {
+	text-align: center;
+  margin: 50px 0 50px 0;
+  padding: 0;
+  li {
+    display:inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    &.slick-active {
+      button {
+        background-color:black;
+      }
+    }
+    button {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+      background-color:#999;
+      border:none;
+      width: 15px;
+      height: 15px;
+      border-radius:50%;
+    }
+		:hover{
+			background-color: black;
+		}
+  }
+}
+
+/* Custom Arrow */
+.prev{
+	color: #999;
+	position: absolute;
+	top: 10%;
+	left: 140px;
+	font-size: 5.5em;
+		:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+.next{
+	color: #999;
+	position: absolute;
+	top: 38%;
+	right: -2em;
+	font-size: 11.5em;
+	:hover{
+			cursor: pointer;
+			color: black;
+		}
+}
+
+@media screen and (max-width: 800px) {
+    .next {
+        display: none !important;
+    }
+}
+
+
+
